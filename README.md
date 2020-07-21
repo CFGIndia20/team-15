@@ -5,4 +5,6 @@ Drishti Beohar:
    
 Pratik Rane:
     mail: 2017.pratik.rane@ves.ac.in
- 
+    
+Swapnil Kannojia:
+    Email: swapnilkannojia123@gmail.com
