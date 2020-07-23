@@ -11,3 +11,7 @@ Swapnil Kannojia:
     Email: swapnilkannojia123@gmail.com 
     LinkedIn: https://www.linkedin.com/in/swapnil-kannojia-5675b5171/ 
     Contact: 7880986589
+
+
+Harshitha J R : 
+    mail: harshithajinka5999@gmail.com
