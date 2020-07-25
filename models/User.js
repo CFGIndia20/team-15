@@ -1,6 +1,14 @@
 const mongoose = require("mongoose");
 const passportLocalMongoose = require("passport-local-mongoose"); 
-const Task = require('./Task');
+// const Task = require('./Task');
+const TaskSchema = new mongoose.Schema({
+    assignedTo: String,
+    assignedBy: String,
+    noOfHours: Number,
+    wagePerHour: Number,
+    description: String,
+    completed: String
+});
 
 const UserSchema = new mongoose.Schema({
     name : String,
@@ -9,12 +17,8 @@ const UserSchema = new mongoose.Schema({
     area : String,
     type : Number,
     tasks : [
-        {
-            type: mongoose.Schema.Types.ObjectId,
-            ref: "Task"
-        }
-    ],
-    wages: [ Number ]
+        TaskSchema
+    ]
 });
 
 UserSchema.plugin(passportLocalMongoose);

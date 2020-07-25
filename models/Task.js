@@ -5,7 +5,9 @@ const TaskSchema = new mongoose.Schema({
     assignedBy: String,
     noOfHours: Number,
     wagePerHour: Number,
+    description: String,
     completed: String
 });
+
 
 module.exports = mongoose.model("Task", TaskSchema);
