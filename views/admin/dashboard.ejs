@@ -1,0 +1,117 @@
+<%- include("../partials/header1") %>
+
+	<title>Umeed | Admin</title>
+
+<%- include("../partials/header2") %>
+
+			<div class="sidebar">
+				<div class="scrollbar-inner sidebar-wrapper">
+					<ul class="nav">
+						<li class="nav-item active">
+							<a href="index.html">
+								<i class="la la-dashboard"></i>
+								<p>Dashboard</p>
+								<span class="badge badge-count">5</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="main-panel">
+				<div class="content">
+					<div class="container-fluid">
+						<h4 class="page-title">Dashboard</h4>
+						<div class="row">
+							<div class="col-md-3">
+								<div class="card card-stats card-warning">
+									<div class="card-body">
+										<a href="#">Create Task</a>
+									</div>
+								</div>
+							</div>
+
+
+							<!-- modal form for Creating Task -->
+							<div class="col-md-3">
+								<div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+									aria-hidden="true">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+												<div class="modal-header text-center">
+													<h4 class="modal-title w-100 font-weight-bold">Assign New Task</h4>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													<span aria-hidden="true">&times;</span>
+													</button>
+												</div>
+												<div class="modal-body mx-3">
+													<div class="md-form mb-5">
+													<i class="fas fa-envelope prefix grey-text"></i>
+													<input type="email" id="defaultForm-email" class="form-control validate">
+													<label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+													</div>
+
+													<div class="md-form mb-4">
+													<i class="fas fa-lock prefix grey-text"></i>
+													<input type="password" id="defaultForm-pass" class="form-control validate">
+													<label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
+													</div>
+
+												</div>
+												<div class="modal-footer d-flex justify-content-center">
+													<button class="btn btn-default">Login</button>
+												</div>
+										</div>
+									</div>
+									</div>
+
+									<div class="text-center">
+									<a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalLoginForm">Create New Task</a>
+								</div>
+							</div>
+
+
+
+
+
+
+							<div class="col-md-3">
+								<div class="card card-stats card-danger">
+									<div class="card-body">
+										<a href="#">Create Task</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="card card-stats card-primary">
+									<div class="card-body ">
+										<a href="#">Create Task</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3">
+								<div class="card">
+									<div class="card-header">
+										<h4 class="card-title">Task</h4>
+										<p class="card-category">Complete</p>
+									</div>
+									<div class="card-body">
+										<div id="task-complete" class="chart-circle mt-4 mb-3"></div>
+									</div>
+									<div class="card-footer">
+										<div class="legend"><i class="la la-circle text-primary"></i> Completed</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<footer class="footer">
+					
+				</footer>
+			</div>
+		</div>
+	</div>
+
+<%- include("../partials/footer") %>
