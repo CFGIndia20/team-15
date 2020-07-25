@@ -1,0 +1,173 @@
+.searchForm {
+    position: relative;
+}
+.customSelect {
+    width: 100%;
+    max-width: 370px;
+}
+.searchForm.type2 input[type="search"] {
+    background: #fff;
+    border: 2px solid #959595;
+}
+
+.searchForm input[type="search"] {
+    display: inline-block;
+    width: 100%;
+    max-width: 505px;
+    height: 52px;
+    padding: 11px 0 11px 20px;
+    font-size: 17px;
+    line-height: 19px;
+    color: #222;
+    font-style: normal;
+    background-color: #f1f1f1;
+    background-image: none;
+    border: 1px solid #8196a1;
+    border-radius: 0;
+    -webkit-transition: none;
+    transition: none;
+}
+.searchForm input[type="submit"] {
+    background: transparent url(https://www.solodev.com/assets/news-events-tabs/search-ico.png) no-repeat center center;
+    font-size: 0;
+    color: transparent;
+    border: 0;
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.dropdownCategories {
+    display: inline-block;
+    width:100%;
+    max-width: 505px;
+    height: 52px;
+    padding: 15px 0 11px;
+    font-size: 17px;
+    line-height: 19px;
+    color: #222;
+    font-style: normal;
+    background: #fff;
+    border: 2px solid #959595;
+    background-image: none;
+    border-radius: 0;
+    -webkit-transition: none;
+    transition: none;
+}
+.dropdownCategories select {
+  width: 100%;
+  padding: 0 20px;
+  border: 0px;
+  outline: none;
+}
+
+.nav-pills > li > a {
+    border-radius: 0;
+    font-size: 18px;
+    padding: 6px 18px;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #662d91;
+}
+
+.tab-content {
+    margin: 50px 0 20px 0;
+}
+.media > .pull-left {
+    margin-right: 29px;
+}
+.media .dateEl {
+    display: inline-block;
+    text-align: center;
+    background: #f9f9f9;
+    padding: 18px 0 25px 0;
+    color: #173d51;
+    font-size: 16px;
+    font-weight: 700;
+    width: 113px;
+    text-transform: uppercase;
+}
+.media .dateEl em {
+    display: block;
+    color: #662d91;
+    font-size: 42px;
+    line-height: 1;
+    margin-bottom: 5px;
+    font-style: normal;
+}
+.media .media-heading a {
+    color: #022235;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+.media .meta-data {
+    margin: 0 0 7px 0;
+}
+.media .longDate, .media .timeEl {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    color: #636465;
+    text-transform: uppercase;
+    min-height: 16px;
+}
+.media .longDate {
+    background: transparent url(../images/ico-calendar.png) no-repeat left top;
+    padding: 0 10px 0 24px;
+    border-right: 1px solid #eb5b4c;
+    margin-right: 3px;
+}
+#tab1.tab-pane .media .longDate {
+    border-right: none;
+}
+.blogPost--small {
+    color: #7c7b7b;
+    margin: 20px 30px 40px 0;
+}
+.blogPost--small .media > .pull-left {
+    margin-right: 25px;
+}
+.blogPost--small a {
+    color: #662d91;
+}
+.blogPost--small .date, .blogPost--small .dateEl2 {
+    display: block;
+    text-align: center;
+    padding: 18px 0 25px 0;
+    color: #fff;
+    background: #662d91;
+    width: 113px;
+}
+.blogPost--small .date span, .blogPost--small .dateEl2 span {
+    display: inline-block;
+    font-size: 42px;
+    line-height: 1;
+    letter-spacing: 0em;
+    text-indent: -0.1em;
+    color: #fff;
+    font-weight: bold;
+}
+.blogPost--small .date small, .blogPost--small .dateEl2 small {
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.blogPost--small h4 {
+    margin: 0 0 12px 0;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+
+
+.btn-default {
+    color: #fff;
+    font-size: 14px;
+    background-color: #662d91;
+    border-radius : 0px;
+}
