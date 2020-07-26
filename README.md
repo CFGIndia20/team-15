@@ -95,5 +95,8 @@ Also, be sure to have `git` available in your PATH, `npm` might need it (You can
 #####  passport-local-mongoose
  *   *$ npm install passport-local-mongoose*
 
-
+## Future Work
+* We can include CNN model based on data given by umeed to do automated quality checks of the products
+* In future we can implement a video call for better quality assuarance  
+* We can work on payment gateway to pay the workers their wages.
 
