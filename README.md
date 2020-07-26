@@ -4,7 +4,7 @@
 The mission of Umeed is to empower women looking for financial sustainablity so that they can take their own decisions,develop monetizable skills,and self-worth
 
 ## Product Features
-
+* Fully Responsive application ,can be operated easily from android phones.
 * Product Tracking 
 * Distribution of Work.
 * Track of Progress.
