@@ -5,9 +5,9 @@ The mission of Umeed is to empower women looking for financial sustainablity so 
 
 ## Product Features
 
-** Product Tracking 
+* Product Tracking 
 * Distribution of Work.
-* Track of Progress/Women.
+* Track of Progress.
 
 
 ## Product Tracking process
@@ -61,7 +61,7 @@ Also, be sure to have `git` available in your PATH, `npm` might need it (You can
 - #### Other Operating Systems
   You can find more information about the installation on the [official Node.js website](https://nodejs.org/) and the [official NPM website](https://npmjs.org/).
 
-If the installation was successful, you should be able to run the following command.
+###### If the installation was successful, you should be able to run the following command.
 
     $ node --version
     v8.11.3
@@ -73,28 +73,28 @@ If the installation was successful, you should be able to run the following comm
 ## Modules Used
 
 *  body-parser 
-    $ npm install body-parser
+    *$ npm install body-parser*
     
 *  ejs 
-    $ npm install ejs
+    *$ npm install ejs*
     
 *  express
-    $ npm install express
+    *$ npm install express*
     
 *   nodemailer
-    $ npm install nodemailer
+    *$ npm install nodemailer*
     
 *   mongoose 
-    $ npm install mongoose
+    *$ npm install mongoose*
     
 *   passport
-    $ npm install passport
+    *$ npm install passport*
     
 *   passport-local
-    $ npm install passport-local
+    *$ npm install passport-local*
     
 *   passport-local-mongoose
-    $ npm install passport-local-mongoose
+    *$ npm install passport-local-mongoose*
 
 
 
