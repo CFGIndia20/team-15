@@ -71,28 +71,28 @@ Also, be sure to have `git` available in your PATH, `npm` might need it (You can
 
 ## Modules Used
 
-*  body-parser 
+##### body-parser 
  *   *$ npm install body-parser*
     
-*  ejs 
+##### ejs 
  *   *$ npm install ejs*
     
-*  express
+##### express
  *   *$ npm install express*
     
-*   nodemailer
+##### nodemailer
  *   *$ npm install nodemailer*
     
-*   mongoose 
+#####  mongoose 
  *   *$ npm install mongoose*
     
-*   passport
+#####  passport
  *   *$ npm install passport*
     
-*   passport-local
+#####  passport-local
  *   *$ npm install passport-local*
     
-*   passport-local-mongoose
+#####  passport-local-mongoose
  *   *$ npm install passport-local-mongoose*
 
 
