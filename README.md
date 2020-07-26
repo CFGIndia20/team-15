@@ -40,11 +40,10 @@ The process of Product Tracking is a fixed sequence of steps. The following step
 ## Installation
 ### Node
 - #### Cloning and launching of our github repository in local server
-    $ git clone https://github.com/CFGIndia20/team-15
-    $ npm install
-    $ node app.js
-    
- * Open http://localhost:3000
+   *  $ git clone https://github.com/CFGIndia20/team-15 
+   *  $ npm install
+   *  $ node app.js
+   * Open http://localhost:3000
  
 - #### Node installation on Windows
 
@@ -73,28 +72,28 @@ Also, be sure to have `git` available in your PATH, `npm` might need it (You can
 ## Modules Used
 
 *  body-parser 
-    *$ npm install body-parser*
+ *   *$ npm install body-parser*
     
 *  ejs 
-    *$ npm install ejs*
+ *   *$ npm install ejs*
     
 *  express
-    *$ npm install express*
+ *   *$ npm install express*
     
 *   nodemailer
-    *$ npm install nodemailer*
+ *   *$ npm install nodemailer*
     
 *   mongoose 
-    *$ npm install mongoose*
+ *   *$ npm install mongoose*
     
 *   passport
-    *$ npm install passport*
+ *   *$ npm install passport*
     
 *   passport-local
-    *$ npm install passport-local*
+ *   *$ npm install passport-local*
     
 *   passport-local-mongoose
-    *$ npm install passport-local-mongoose*
+ *   *$ npm install passport-local-mongoose*
 
 
 
