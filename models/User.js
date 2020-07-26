@@ -7,7 +7,7 @@ const TaskSchema = new mongoose.Schema({
     noOfHours: Number,
     wagePerHour: Number,
     description: String,
-    completed: String
+    completed: String,
 });
 
 const UserSchema = new mongoose.Schema({

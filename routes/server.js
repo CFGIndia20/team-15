@@ -12,9 +12,10 @@ let transporter = nodemailer.createTransport({
 // send mail with defined transport object
 return  transporter.sendMail({
     from: "drishtibeohar2509@gmail.com",
-    to: "nayansinghai66@gmail.com", // list of receivers
+    to: "beohardrishti25@gmail.com", // list of receivers
     subject: "Hello ✔", // Subject line
     text: "Hello let me know if you recive the email"+ email, // plain text body
+    html:output
   });
 
   //console.log("Message sent: %s", info.messageId);
