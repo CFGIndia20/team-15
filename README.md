@@ -100,3 +100,5 @@ Also, be sure to have `git` available in your PATH, `npm` might need it (You can
 * In future we can implement a video call for better quality assuarance  
 * We can work on payment gateway to pay the workers their wages.
 
+
+##### The code ("Code") in this repository was created solely by the student teams during a coding competition hosted by JPMorgan Chase Bank, N.A. ("JPMC").						JPMC did not create or contribute to the development of the Code.  This Code is provided AS IS and JPMC makes no warranty of any kind, express or implied, as to the Code,						including but not limited to, merchantability, satisfactory quality, non-infringement, title or fitness for a particular purpose or use.
